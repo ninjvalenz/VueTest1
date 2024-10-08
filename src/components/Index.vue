@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="index">
     <h1>{{ msg }}</h1>
     <p>
     Empty content
@@ -32,5 +32,11 @@ li {
 }
 a {
   color: #42b983;
+}
+.index {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 </style>
